@@ -32,7 +32,7 @@ If(isset($_POST["submit"])){
     }else {
         echo 'error';
     }
-}
+} //dhhehdjkek
     $conn->close();
 ?>
 	
