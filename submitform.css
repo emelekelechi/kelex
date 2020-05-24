@@ -1,0 +1,156 @@
+body{
+    background-color: white;
+    background-image: url("practice 2/bg-header.gif");
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0;
+    font-family: arial;
+    
+}
+a{
+	text-decoration:none;
+}
+#header{
+    margin-top: 0px;
+    margin-left: 255px;
+}
+#nav ul{
+    list-style-type: none;
+    margin-left: 295px;
+    margin-top: -55px;
+    padding: 0;
+    overflow: hidden;
+	position: relative;
+}
+#nav ul li{
+    float: left;
+    height: 50px;
+}
+#nav ul li a{
+    background-image: url("practice 2/bg-navigation.gif");
+	background-repeat: no-repeat;
+	background-position: top left;
+    text-decoration: none;
+    text-align: center;
+    color: bisque;
+    padding: 17px 37px;
+    display: inline-block;
+	font-size: 14px;
+}
+#nav ul li a:hover, #nav ul li a:focus{
+    background-image: url("practice%202/bg-copyright.gif");
+    color: coral;
+}
+#section{
+    background-image: url("practice%202/beautiful-girl.jpg");
+    background-repeat: no-repeat;
+    width: 950px;
+    height:500px;
+    margin-left: 184px;
+    margin-top: -16px;
+}
+#wrap-image{
+   background-color: white;
+   width: 910px;
+   height: auto;
+   left: 40px;
+   top: 30px;
+   margin-left: 220px;
+}
+#list_text ol{
+   float: left;
+   list-style:none;
+   margin-let:-40px;
+   margin:0;
+   position:relative;
+}
+ol li #img1{
+	margin-left:-40px;
+	padding: 0;
+	border: 10px solid #eeddee;
+	margin-right: 15px;
+}
+ol li #img2{
+	margin-left:-40px;
+	padding: 0;
+	border: 10px solid #eeddee;
+	margin-top:-10px;
+}
+#text_p{
+	position: absolute;
+	top:140px;
+	color: white;
+	text-shadow: 2px 2px orange;
+}
+#text_p2{
+	position: absolute;
+	top:335px;
+	color: white;
+	text-shadow: 2px 2px orange;
+}
+#food img{
+	float:right;
+	height: 220px;
+}
+#text_only{
+	color: #cc6699;
+	font-size: 13px;
+	display: block;
+	line-height: 25px;
+	text-align: justify;
+}
+ #text1{
+	color: gray;
+	font-size:30px;
+}
+#text_3{
+	color: #ff3399;
+	font-size:30px;
+}
+#ground{
+	width: 100%;
+	height: auto;
+	background-color: #f2e1e9;
+	background-image: url("practice 2/bg-footer.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+}
+#ground #list{
+	list-style:none;
+	padding:0;
+	overflow: hidden;
+	margin-left:200px;
+}
+#ground #list li{
+	float:left;
+}
+#ground #list li h2 a{
+	color: #ff3399;
+}
+#ground #list li h2 a:hover{
+	color: brown;
+}
+#ground #list li p{
+	color:#cc6699;
+	font-size:13px;
+	line-height: 20px;
+}
+#ground #list li p a{
+	color: gray;
+}
+#ground #list li p a:hover{
+	color: red;
+}
+#footer{
+	width: 100%
+	height: auto;
+	text-align:center;
+	background-image: url("practice 2/bg-copyright.gif");
+	background-repeat: no-repeat;
+	background-position: top center;
+	color: #cc6699;
+    padding: 12px 0px;
+    font-size: 14px;
+    	
+}
